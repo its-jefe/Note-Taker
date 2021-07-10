@@ -1,0 +1,11 @@
+{
+  "name": "11.express",
+  "version": "1.0.0",
+  "description": "Starter Code from [Xandromus][1] (front-end) ## <u>Description</u> Write and save notes! This application uses an Express.js back end to save and retrieve note data from a JSON file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
