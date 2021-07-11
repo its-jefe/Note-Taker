@@ -1,4 +1,7 @@
-# Note Taker
+<center>
+
+#  Note Taker 
+
 Write, save, and delete notes! 
 
 Deployed on [Heroku][1]! 
