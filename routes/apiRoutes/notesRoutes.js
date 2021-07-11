@@ -1,9 +1,9 @@
 const router = require('express').Router();
 const { } = require('../../lib/notes');
-const { animals } = require('../../db/notes');
+const { notes } = require('../../data/notes');
 
 router.get('/notes', (req, res) => {
-  let results = animals;
+  let results = notes;
   res.json(results);
 });
 
