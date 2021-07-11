@@ -1,7 +1,7 @@
 const router = require('express').Router();
-const { } = require('../../lib/notes');
-const { notes } = require('../../data/notes');
+const { notes } = require('../../db/notes');
 
+// notes are available at api/notes in JSON 
 router.get('/notes', (req, res) => {
   let results = notes;
   res.json(results);
