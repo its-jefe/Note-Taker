@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { createNewNote } = require('../../lib/notes');
+const { createNewNote, deleteNote } = require('../../lib/notes');
 const { notes } = require('../../db/notes');
 
 // notes are available at api/notes in JSON 
@@ -16,10 +16,10 @@ router.post('/notes', (req, res) => {
   res.json(note);
 });
 
-// // Route parameters :👌 
-// router.delete('/notes/:id', (req, res) => {
-//   const note = deleteNote(req.body.id, notes); // pass ID / index
-//   res.json(note);
-// });
+// Route parameters :👌 
+router.delete('/notes/:id', (req, res) => {
+  const note = deleteNote(req.body.id, notes); // pass ID / index
+  res.json(note);
+});
 
 module.exports = router;
