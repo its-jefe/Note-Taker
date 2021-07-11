@@ -1,10 +1,12 @@
 # <u>Note Taker</u>
-### Write, save, and delete notes! 
-### Deployed on [Heroku][1]! 
-### Front-end starter code from [Xandromus][2]
+Write, save, and delete notes! 
+
+Deployed on [Heroku][1]! 
+
+Front-end starter code from [Xandromus][2]
 
 ___
-## Description
+## <u>Description</u>
 This application uses an Express.js back-end to save and retrieve note data from a JSON file.
 
 I wrote the back-end, connected the front-end, and then deployed the application to Heroku.
