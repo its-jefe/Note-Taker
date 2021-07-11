@@ -1,10 +1,13 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text"
-    },
-    {
-        "title":"yes",
-        "text":"no"
-    }
-]
+
+{
+    "notes": [
+        {
+            "title":"Test Title",
+            "text":"Test text"
+        },
+        {
+            "title":"yes",
+            "text":"no"
+        }
+    ]
+}
