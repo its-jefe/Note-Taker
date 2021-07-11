@@ -16,13 +16,10 @@ router.post('/notes', (req, res) => {
   res.json(note);
 });
 
-router.delete('/notes', (req, res) => {
-  // set id based on what the next index of the array will be
-  req.body.id = notes.length.toString();
-
-  const note = deleteNote(id);
+// Route parameters :👌 
+router.delete('/notes/:id', (req, res) => {
+  const note = deleteNote(req.body.id, notes); // pass ID / index
   res.json(note);
-
 });
 
 module.exports = router;
