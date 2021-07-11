@@ -6,13 +6,10 @@ const {
 } = require('../../lib/notes');
 // note handling functions
 
-const { animals } = require('../../db/notes');
+const { notes } = require('../../db/notes');
 
 router.get('/notes', (req, res) => {
-  let results = animals;
-  if (req.query) {
-    results = filterByQuery(req.query, results);
-  }
+  let results = notes;
   res.json(results);
 });
 
