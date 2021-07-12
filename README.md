@@ -32,7 +32,7 @@ I wrote the back-end, connected the front-end, and then deployed the application
 
 [1]:https://young-harbor-02832.herokuapp.com
 [2]:https://github.com/coding-boot-camp/miniature-eureka
-[3]:./images/1.png
-[4]:./images/2.png
-[5]:./images/3.png
-[6]:./images/4.png
+[3]:https://raw.githubusercontent.com/its-jefe/Note-Taker/main/images/1.png
+[4]:https://raw.githubusercontent.com/its-jefe/Note-Taker/main/images/2.png
+[5]:https://raw.githubusercontent.com/its-jefe/Note-Taker/main/images/3.png
+[6]:https://raw.githubusercontent.com/its-jefe/Note-Taker/main/images/4.png
