@@ -29,6 +29,7 @@ I wrote the back-end, connected the front-end, and then deployed the application
 |<center><b>notes page with one stored note and creating a new one</b>|<center><b>notes page with two stored notes. viewing a stored note</b>|
 ![][5]|![][6]
 
+___
 
 [1]:https://young-harbor-02832.herokuapp.com
 [2]:https://github.com/coding-boot-camp/miniature-eureka
