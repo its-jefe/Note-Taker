@@ -11,7 +11,7 @@ Front-end starter code from [Xandromus][2]
 ## Description
 This application uses an Express.js back-end to save and retrieve note data from a JSON file.
 
-## Extended Technical Jargon
+### Extended Technical Jargon
 I wrote the back-end `JavaScript`, connected the front-end, and then deployed the application to Heroku.
 
 > Application front end connects to an `Express.js` back end.
