@@ -6,12 +6,23 @@ Deployed on [Heroku][1]!
 
 Front-end starter code from [Xandromus][2]
 
-<br>
+---
+## UsagePull requests
+><b>Add a note:</b> Fill in the title and body, then hit the floppy disk save icon.
+>> You will see your note saved in the left side column.
+>> 
+>> Hitting the '+' instead if the floppy disk will send your note into oblivian 🧙‍ (won't fix)
 
-## Description
+> To view an existing note you simply click on it from the left coolumn.
+
+> The '+' is for switching from viewing an existing note to creating a new one.
+
+><b>Delete a note:</b> Hit the red trashcan icon on an existing note. (or the + on the one you're currently writing 🤦‍♂️)  
+
+### Technical Jargon
+
 This application uses an Express.js back-end to save and retrieve note data from a JSON file.
 
-### Extended Technical Jargon
 I wrote the back-end `JavaScript`, connected the front-end, and then deployed the application to Heroku.
 
 > Application front end connects to an `Express.js` back end.
